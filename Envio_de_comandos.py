@@ -184,13 +184,6 @@ while True:
         else:
             combreak()
 
-    # while True:
-    #     arq = input("-->Insira o nome do arquivo: ")
-    #     os.system('cls')
-    #     if arq.isalnum() or ('\\'not in arq and '/'not in arq and ':'not in arq):
-    #         arq += '.gcode'
-    #         break
-
     try:
         with open(arq, 'r') as arquivo:
             for linha in arquivo:
